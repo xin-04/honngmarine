@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reconstruction of Beacon KP 7 Comprising Structure Works | Marine Piling Contractors</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #08121d;
+        --panel: #12223f;
+        --text: #f0e7e1;
+        --muted: #d8c3bd;
+        --accent: #ec1827;
+        --accent-strong: #449ad1;
+        --border: rgba(236, 24, 39, 0.14);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: radial-gradient(circle at top, #14323c 0%, #071118 40%, #02090f 100%);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      img {
+        max-width: 100%;
+        display: block;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background: rgba(7, 17, 24, 0.92);
+        backdrop-filter: blur(14px);
+        border-bottom: 1px solid var(--border);
+      }
+
+      .site-nav {
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 1rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .site-title {
+        font-size: 1rem;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .site-links {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+
+      .site-links a {
+        color: var(--muted);
+        transition: color 0.2s ease;
+      }
+
+      .site-links a:hover {
+        color: var(--accent);
+      }
+
+      .page-shell {
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem 4rem;
+      }
+
+      .hero {
+        display: grid;
+        gap: 2rem;
+        align-items: center;
+        grid-template-columns: minmax(0, 1.3fr) minmax(300px, 1fr);
+        margin-top: 2rem;
+      }
+
+      .hero-copy {
+        max-width: 640px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        margin-bottom: 1rem;
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--accent);
+      }
+
+      .project-tag {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5rem 0.9rem;
+        border-radius: 999px;
+        background: rgba(68, 154, 209, 0.14);
+        color: var(--accent-strong);
+        font-size: 0.85rem;
+        font-weight: 700;
+      }
+
+      .project-card {
+        box-shadow: 0 24px 60px rgba(12, 28, 49, 0.24);
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-size: clamp(2.5rem, 4vw, 4.5rem);
+        line-height: 0.95;
+      }
+
+      .tagline {
+        margin: 1rem 0 0;
+        font-size: 1.1rem;
+        color: var(--accent);
+      }
+
+      .hero-text {
+        margin: 1.75rem 0 2rem;
+        max-width: 44rem;
+        color: var(--muted);
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.95rem 1.8rem;
+        border-radius: 999px;
+        background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+        color: #fff;
+        font-weight: 700;
+        transition: transform 0.2s ease, filter 0.2s ease;
+      }
+
+      .button:hover {
+        transform: translateY(-1px);
+        filter: brightness(1.05);
+      }
+
+      .button-secondary {
+        background: transparent;
+        border: 1px solid rgba(94, 193, 181, 0.35);
+        color: var(--text);
+      }
+
+      .hero-media {
+        min-height: 420px;
+        border-radius: 28px;
+        overflow: hidden;
+        background: linear-gradient(180deg, rgba(10, 28, 39, 0.88), rgba(2, 9, 15, 0.96));
+        display: grid;
+        place-items: center;
+      }
+
+      .hero-media img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .stats-bar {
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        margin: 3rem 0 2rem;
+      }
+
+      .stats-bar div {
+        padding: 1.4rem 1.2rem;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+      }
+
+      .stats-bar strong {
+        display: block;
+        font-size: 2rem;
+        color: var(--text);
+        margin-bottom: 0.4rem;
+      }
+
+      .section-intro {
+        margin: 3rem 0 1.25rem;
+      }
+
+      .section-intro h2 {
+        margin: 0 0 0.7rem;
+        font-size: clamp(2rem, 2.4vw, 2.8rem);
+      }
+
+      .section-intro p {
+        margin: 0;
+        max-width: 760px;
+        color: var(--muted);
+      }
+
+      .project-grid {
+        display: grid;
+        gap: 1.5rem;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      }
+
+      .project-card {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1.5rem;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        transition: transform 0.2s ease, border-color 0.2s ease;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .project-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(94, 193, 181, 0.35);
+      }
+
+      .project-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 14px;
+      }
+
+      .project-card-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .project-card-header h3 {
+        margin: 0;
+        font-size: 1.2rem;
+      }
+
+      .project-location {
+        margin: 0.35rem 0 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .project-tag {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5rem 0.9rem;
+        border-radius: 999px;
+        background: rgba(94, 193, 181, 0.14);
+        color: var(--accent);
+        font-size: 0.85rem;
+        font-weight: 700;
+      }
+
+      .project-meta {
+        display: grid;
+        gap: 0.4rem;
+        color: var(--muted);
+      }
+
+      .project-meta strong {
+        color: var(--text);
+        font-weight: 700;
+      }
+
+      .project-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0.75rem;
+      }
+
+      .project-gallery img,
+      .project-gallery video {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 14px;
+      }
+
+      .project-gallery video {
+        display: block;
+        background: #000;
+      }
+
+      .project-filter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        align-items: center;
+        margin-bottom: 1.75rem;
+      }
+
+      .project-filter span {
+        color: var(--muted);
+        font-weight: 700;
+      }
+
+      .filter-pill {
+        padding: 0.55rem 1rem;
+        border-radius: 999px;
+        border: 1px solid rgba(94, 193, 181, 0.2);
+        background: rgba(94, 193, 181, 0.08);
+        color: var(--text);
+        cursor: pointer;
+      }
+
+      .filter-pill:hover {
+        background: rgba(94, 193, 181, 0.16);
+      }
+
+      .project-card h3 {
+        margin: 0 0 0.6rem;
+        font-size: 1.1rem;
+      }
+
+      .project-card p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .contact-grid {
+        display: grid;
+        gap: 2rem;
+      }
+
+      .contact-form,
+      .contact-details {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 1.75rem;
+      }
+
+      .contact-form h2,
+      .contact-details h2,
+      .contact-details h3 {
+        margin-top: 0;
+      }
+
+      .form-note,
+      .contact-info {
+        margin: 0 0 1.5rem;
+        color: var(--muted);
+      }
+
+      .contact-form label {
+        display: grid;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+        color: var(--text);
+        font-weight: 600;
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        width: 100%;
+        border-radius: 14px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.04);
+        color: var(--text);
+        padding: 0.95rem 1rem;
+        font: inherit;
+        outline: none;
+      }
+
+      .contact-form input:focus,
+      .contact-form textarea:focus {
+        border-color: rgba(94, 193, 181, 0.6);
+        box-shadow: 0 0 0 3px rgba(94, 193, 181, 0.12);
+      }
+
+      .contact-form textarea {
+        min-height: 160px;
+        resize: vertical;
+      }
+
+      .contact-details p,
+      .contact-details a {
+        color: var(--muted);
+      }
+
+      .contact-details a:hover {
+        color: var(--text);
+      }
+
+      .contact-download {
+        margin-top: 1.5rem;
+      }
+
+      .contact-map {
+        margin-top: 1.5rem;
+      }
+
+      .contact-map iframe {
+        width: 100%;
+        min-height: 250px;
+        border: 0;
+        border-radius: 18px;
+      }
+
+      @media (min-width: 880px) {
+        .contact-grid {
+          grid-template-columns: 1.4fr 0.9fr;
+          align-items: start;
+        }
+      }
+
+      .why-choose {
+        margin: 3rem 0 1rem;
+        display: grid;
+        gap: 2rem;
+      }
+
+      .why-copy {
+        max-width: 720px;
+      }
+
+      .why-list {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .why-list li {
+        padding: 1.1rem 1.2rem;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--border);
+      }
+
+      .why-list strong {
+        display: block;
+        margin-bottom: 0.25rem;
+      }
+
+      .page-intro {
+        margin-top: 2rem;
+      }
+
+      .page-intro h1 {
+        margin-bottom: 0.8rem;
+        font-size: clamp(2rem, 3vw, 3rem);
+      }
+
+      .page-intro p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .content-panel {
+        margin-top: 2rem;
+        padding: 2rem;
+        border-radius: 24px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      .site-footer {
+        margin-top: 4rem;
+        padding: 2rem 1.5rem;
+        background: rgba(255, 255, 255, 0.03);
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+      }
+
+      .site-footer p {
+        margin: 0;
+      }
+
+      @media (max-width: 860px) {
+        .hero {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-nav">
+        <a class="site-title" href="/">HONNG MARINE</a>
+        <nav class="site-links">
+          <a href="/portfolio/">Portfolio</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+    <section class="page-intro">
+      <h1>Reconstruction of Beacon KP 7 Comprising Structure Works</h1>
+      <p>Kuantan Port, Pahang · 2023</p>
+    </section>
+
+    <div class="content-panel">
+      <div class="project-detail-meta">
+        <div>
+          <p><strong>Location:</strong> Kuantan Port, Pahang</p>
+          <p><strong>Completion:</strong> 2023</p>
+        </div>
+        
+      </div>
+
+      <div class="project-detail-cover">
+        <img src="/image/projects/kuantan_port/cover.jpeg" alt="Reconstruction of Beacon KP 7 Comprising Structure Works cover image" />
+      </div>
+
+      <div class="project-detail-gallery">
+        <img src="/image/projects/kuantan_port/01.jpeg" alt="Reconstruction of Beacon KP 7 Comprising Structure Works gallery image" /><img src="/image/projects/kuantan_port/02.jpeg" alt="Reconstruction of Beacon KP 7 Comprising Structure Works gallery image" /><img src="/image/projects/kuantan_port/03.jpeg" alt="Reconstruction of Beacon KP 7 Comprising Structure Works gallery image" /><img src="/image/projects/kuantan_port/04.jpeg" alt="Reconstruction of Beacon KP 7 Comprising Structure Works gallery image" /><img src="/image/projects/kuantan_port/05.jpeg" alt="Reconstruction of Beacon KP 7 Comprising Structure Works gallery image" /><img src="/image/projects/kuantan_port/06.jpeg" alt="Reconstruction of Beacon KP 7 Comprising Structure Works gallery image" />
+      </div>
+
+      
+    </div>
+</main>
+
+    <footer class="site-footer">
+      <p>HONNG MARINE SDN BHD · Proven marine foundation work for waterfront infrastructure.</p>
+    </footer>
+  </body>
+</html>

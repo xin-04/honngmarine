@@ -1,0 +1,38 @@
+<%- include("_includes/layout", {
+  title: "Portfolio",
+  content: `
+    <section class="page-intro">
+      <h1>Portfolio</h1>
+      <p>Our most important page for tenders: verified marine piling projects and completion data.</p>
+    </section>
+
+    <div class="content-panel">
+      <div class="project-filter">
+        <span>Sort by date:</span>
+        <button class="filter-pill filter-pill-active">Newest first</button>
+      </div>
+
+      <div class="project-grid">
+        ${[...projects].sort((a, b) => b.year - a.year).map(project => `
+          <a class="project-card" href="/portfolio/${project.slug}/">
+            <div class="project-card-header">
+              <div>
+                <h3>${project.title}</h3>
+                <p class="project-location">${project.location}</p>
+              </div>
+              ${project.type ? `<span class="project-tag">${project.type}</span>` : ""}
+            </div>
+
+            <img src="${project.cover}" alt="${project.title} cover image" />
+
+            <div class="project-meta">
+              ${project.client ? `<div><strong>Client:</strong> ${project.client}</div>` : ""}
+              <div><strong>Completion:</strong> ${project.year}</div>
+            </div>
+          </a>
+        `).join("")}
+      </div>
+
+      <p style="margin-top:2rem; color: var(--muted);">Each card links to a dedicated project page with gallery for tender review.</p>
+    </div>
+` }) %>

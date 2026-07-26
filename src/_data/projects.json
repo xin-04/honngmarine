@@ -1,0 +1,157 @@
+[
+    {
+        "slug": "kuantan-port",
+        "title": "Reconstruction of Beacon KP 7 Comprising Structure Works",
+        "location": "Kuantan Port, Pahang",
+        "year": 2023,
+        "cover": "/image/projects/kuantan_port/cover.jpeg",
+        "gallery": [
+            "/image/projects/kuantan_port/01.jpeg",
+            "/image/projects/kuantan_port/02.jpeg",
+            "/image/projects/kuantan_port/03.jpeg",
+            "/image/projects/kuantan_port/04.jpeg",
+            "/image/projects/kuantan_port/05.jpeg",
+            "/image/projects/kuantan_port/06.jpeg"
+        ]
+    },
+    {
+        "slug": "tok-bali",
+        "title": "LKIM Jetty Extension",
+        "location": "Tok Bali, Pasir Puteh, Kelantan",
+        "year": 2026,
+        "cover": "/image/projects/tok_bali/cover.jpeg",
+        "gallery": [
+            "/image/projects/tok_bali/01.jpeg",
+            "/image/projects/tok_bali/02.jpeg",
+            "/image/projects/tok_bali/03.jpeg",
+            "/image/projects/tok_bali/04.jpeg",
+            "/image/projects/tok_bali/05.jpeg"
+        ]
+    },
+    {
+        "slug": "marine-police",
+        "title": "Demolition and Reconstruction of the Marine Force Region 2 Operations Headquarters Jetty",
+        "location": "Muar, Johor",
+        "year": 2025,
+        "cover": "/image/projects/muar_marinePolice/cover.jpeg",
+        "gallery": [
+            "/image/projects/muar_marinePolice/01.jpeg",
+            "/image/projects/muar_marinePolice/02.jpeg"
+        ]
+    },
+    {
+        "slug": "kemaman-KSB",
+        "title": "Structural Repair for Existing West Wharf",
+        "location": "Kemaman, Terengganu",
+        "year": 2021,
+        "cover": "/image/projects/kemaman_KSBPort/cover.png",
+        "gallery": [
+            "/image/projects/kemaman_KSBPort/video1.mp4",
+            "/image/projects/kemaman_KSBPort/video2.mp4",
+            "/image/projects/kemaman_KSBPort/video3.mp4"
+        ]
+    },
+    {
+        "slug": "tanjung-agas",
+        "title": "Piling Works at K11, Tanjung Agas",
+        "location": "Muar, Johor",
+        "year": 2026,
+        "cover": "/image/projects/muar/cover.jpeg",
+        "gallery": [
+            "/image/projects/muar/01.jpeg",
+            "/image/projects/muar/02.jpeg",
+            "/image/projects/muar/03.jpeg"
+        ]
+    },
+    {
+        "slug": "pulau-pemanggil",
+        "title": "Piling Works at Pulau Pemanggil",
+        "location": "Mersing, Johor",
+        "year": 2023,
+        "cover": "/image/projects/pulau_pemanggil/cover.jpeg",
+        "gallery": [
+            "/image/projects/pulau_pemanggil/01.jpeg",
+            "/image/projects/pulau_pemanggil/02.jpeg",
+            "/image/projects/pulau_pemanggil/03.jpeg",
+            "/image/projects/pulau_pemanggil/04.jpeg"
+        ]
+    },
+    {
+        "slug": "pulau-tioman",
+        "title": "Resort and Jetty Development Project on PT 802",
+        "location": "Mukim Tioman, Rompin, Pahang",
+        "year": 2024,
+        "cover": "/image/projects/pulau_tioman/cover.jpeg",
+        "gallery": [
+            "/image/projects/pulau_tioman/01.jpeg",
+            "/image/projects/pulau_tioman/02.jpeg",
+            "/image/projects/pulau_tioman/03.jpeg"
+        ]
+    },
+    {
+        "slug": "tanjung-pelepas",
+        "title": "Piling Works at Site Pelabuhan Tanjung Pelepas",
+        "location": "Iskandar Puteri, Johor Bahru, Johor",
+        "year": 2022,
+        "cover": "/image/projects/tanjung_pelepas/cover.jpeg",
+        "gallery": [
+            "/image/projects/tanjung_pelepas/01.jpeg"
+        ]
+    },
+    {
+        "slug": "wind-turbine",
+        "title": "Construction of a Wind Turbine Site and Wind Turbine Installation Works",
+        "location": "Tok Jembal Beach, Kuala Nerus, Terrenganu",
+        "year": 2025,
+        "cover": "/image/projects/wind_turbine/cover.jpeg",
+        "gallery": [
+            "/image/projects/wind_turbine/01.jpeg",
+            "/image/projects/wind_turbine/02.jpeg",
+            "/image/projects/wind_turbine/03.jpeg",
+            "/image/projects/wind_turbine/04.jpeg",
+            "/image/projects/wind_turbine/video1.mp4",
+            "/image/projects/wind_turbine/video2.mp4"
+        ]
+    },
+    {
+        "slug": "tnb-jb",
+        "title": "Supply and Installation of Pilecap for Sungai Skudai Cable Bridge and Sungai Kempas Cable Bridge", 
+        "location": "PMU Danga Bay to PMU Perling",
+        "year": 2023,
+        "cover": "/image/projects/tnb_jb/cover.jpeg",
+        "gallery": [
+            "/image/projects/tnb_jb/01.jpeg",
+            "/image/projects/tnb_jb/02.jpeg",
+            "/image/projects/tnb_jb/03.jpeg",
+            "/image/projects/tnb_jb/04.jpeg",
+            "/image/projects/tnb_jb/05.jpeg"
+        ]
+    },
+    {
+        "slug": "sungai-melayu",
+        "title": "Construction and Completion of Jetty",
+        "location": "Kampung Sungai Melayu, Iskandar, Johor Bahru, Johor",
+        "year": 2025,
+        "cover": "/image/projects/sungai_melayu/cover.jpeg",
+        "gallery": [
+            "/image/projects/sungai_melayu/01.jpeg",
+            "/image/projects/sungai_melayu/02.jpeg",
+            "/image/projects/sungai_melayu/03.jpeg",
+            "/image/projects/sungai_melayu/04.jpeg",
+            "/image/projects/sungai_melayu/video1.mp4"
+        ]
+    },
+    {
+        "slug": "sapura-lumut",
+        "title": "Pre-bored Works at Sapura Fabrication Yard",
+        "location": "Lumut, Perak",
+        "year": 2021,
+        "cover": "/image/projects/lumut/cover.jpeg",
+        "gallery": [
+            "/image/projects/lumut/01.jpeg",
+            "/image/projects/lumut/02.jpeg",
+            "/image/projects/lumut/03.jpeg",
+            "/image/projects/lumut/video1.mp4"
+        ]
+    }
+]

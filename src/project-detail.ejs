@@ -1,0 +1,41 @@
+---
+pagination:
+  data: projects
+  size: 1
+  alias: project
+permalink: "/portfolio/<%= project.slug %>/"
+---
+<%- include("_includes/layout", {
+  title: project.title,
+  project,
+  content: `
+    <section class="page-intro">
+      <h1>${project.title}</h1>
+      <p>${project.location} · ${project.year}</p>
+    </section>
+
+    <div class="content-panel">
+      <div class="project-detail-meta">
+        <div>
+          <p><strong>Location:</strong> ${project.location}</p>
+          <p><strong>Completion:</strong> ${project.year}</p>
+        </div>
+        ${project.client ? `<div><p><strong>Client:</strong> ${project.client}</p></div>` : ""}
+      </div>
+
+      <div class="project-detail-cover">
+        <img src="${project.cover}" alt="${project.title} cover image" />
+      </div>
+
+      <div class="project-detail-gallery">
+        ${project.gallery.map(image => {
+            const isVideo = /\.(mp4|webm|mov)$/i.test(image);
+            return isVideo
+              ? `<video controls><source src="${image}" type="video/mp4">Your browser does not support the video tag.</video>`
+              : `<img src="${image}" alt="${project.title} gallery image" />`;
+          }).join("")}
+      </div>
+
+      ${project.description ? `<div class="project-detail-description"><p>${project.description}</p></div>` : ""}
+    </div>
+` }) %>
